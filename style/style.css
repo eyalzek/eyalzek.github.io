@@ -16,3 +16,8 @@ p {
     color: #FF2D3B;
     font-family: "Arvo", serif;
 }
+
+#avatar {
+    margin: 5px;
+    /*float: left;*/
+}
