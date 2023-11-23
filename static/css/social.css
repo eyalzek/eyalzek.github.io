@@ -1,0 +1,19 @@
+.socials {
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+}
+
+.fa-github {
+    background-image: url(../images/github.svg);
+}
+
+.fa-linkedin {
+    background-image: url(../images/linkedin.svg);
+}
+
+.fa-mail {
+    background-image: url(../images/mail.svg);
+}

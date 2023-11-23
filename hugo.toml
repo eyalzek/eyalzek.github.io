@@ -1,0 +1,43 @@
+baseURL = 'https://zekaria.de/'
+languageCode = 'en-us'
+title = 'Eyal Zekaria'
+theme = 'nightfall'
+
+####### START THEME CUSTOMIZATION #######
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "posts"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
+[params]
+readingTime = true  # Show reading time on post page
+published = true  # Show published data on post page
+user = "eyal"
+hostname = "zekaria.de"
+  [params.author]
+    name = "Eyal Zekaria"
+    email = "eyal@zekaria.de"
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/eyalzek"
+icon = "socials fa-github"
+
+[[params.social]]
+key = 1
+name = "linkedin"
+url = "https://www.linkedin.com/in/eyal-zekaria"
+icon = "socials fa-linkedin"
+
+[[params.social]]
+key = 2
+name = "email"
+url = "mailto:eyal@zekaria.com"
+icon = "socials fa-mail"
+####### END THEME CUSTOMIZATION #######
