@@ -5,6 +5,10 @@ theme = 'nightfall'
 
 ####### START THEME CUSTOMIZATION #######
 [menu]
+[[menu.header]]
+    name = "certifications"
+    weight = 1
+    url = "certifications"
   [[menu.header]]
     name = "posts"
     weight = 0
