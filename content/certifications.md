@@ -6,6 +6,7 @@ showMetadata = false
 +++
 
 {{< cert 95a65d96-c845-4ee4-be40-0421884aeea0 >}}
+{{< cert ec3986a4-f7f2-4fd6-b9b1-33d970a972cc >}}
 {{< cert 42fb60d5-7d6f-4d29-857c-c16c336d3ec7 >}}
 {{< cert 20056353-668f-4d30-b0b4-734e88890f1a >}}
 {{< cert 24548781-f949-4126-a912-0ad0133d4d64 >}}
