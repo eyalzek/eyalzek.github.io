@@ -1,7 +1,9 @@
-name: Deploy Hugo site to Pages
+name: Build/Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Builds on PRs and main branch workflows
+  pull_request:
+  # Deploys on pushes targeting the default branch
   push:
     branches:
       - main
@@ -70,6 +72,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     needs: build
     steps:
       - name: Deploy to GitHub Pages
