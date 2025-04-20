@@ -42,6 +42,6 @@ icon = "socials fa-linkedin"
 [[params.social]]
 key = 2
 name = "email"
-url = "mailto:eyal@zekaria.com"
+url = "mailto:eyal@zekaria.de"
 icon = "socials fa-mail"
 ####### END THEME CUSTOMIZATION #######
