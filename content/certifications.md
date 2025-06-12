@@ -1,6 +1,6 @@
 +++
 title = "Certifications"
-description = "My certifications"
+# description = "My certifications"
 aliases = ["certs", "certifications", "certs-eyal"]
 showMetadata = false
 +++
