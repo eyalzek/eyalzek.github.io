@@ -22,3 +22,7 @@
     background-color: #EFE4D2;
     color: #131D4F;
 }
+
+iframe {
+    width: 100%;
+}
