@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = 'Eyal Zekaria'
 theme = 'nightfall'
 
+# GA4 config
+[services]
+  [services.googleAnalytics]
+    id = 'G-WLZGMREHS2'
+
 ####### START THEME CUSTOMIZATION #######
 [menu]
 [[menu.header]]
